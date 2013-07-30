@@ -1,5 +1,12 @@
 Hardwareto::Application.routes.draw do
+
+  root :to => 'pages#index'
+
   get "pages/index"
+  match "about"     => "pages#about"
+  match "events"     => "pages#events"
+  match "calendars" => "pages#calendars"
+  match "subscribe" => "pages#subscribe"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

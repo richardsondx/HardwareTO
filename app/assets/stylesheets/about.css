@@ -1,0 +1,46 @@
+.about .background {
+	background:url("") center top no-repeat black;
+	background-size:cover;
+	opacity:1;
+	height:290px;
+}
+.about .background h1 {
+	color:#fff;
+	padding:130px 0 10px;
+	text-align:center;
+	margin:0;
+	font-size:58px;
+	text-transform:uppercase;
+	border-bottom:4px solid #fff;
+	font-weight:600;
+	display:block;
+	width:350px;
+	margin:0 auto
+}
+.about article {
+	text-align:left;
+	padding:60px 0
+}
+.about article blockquote {
+	text-align:center;
+	border:0
+}
+.about article blockquote p {
+	font-size:32px;
+	font-weight:normal;
+	margin-bottom:.5em;
+	font-family:georgia,serif;
+	font-style:italic;
+	color:#333
+}
+.about article h1 {
+	font-size:42px;
+	color:#444;
+	margin:0 0 .2em
+}
+.about article p {
+	color:#444;
+	font-size:22px;
+	line-height:1.4;
+	margin-bottom:1.5em
+}
