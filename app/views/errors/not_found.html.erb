@@ -1,0 +1,16 @@
+<div class="container">
+<div id="errors_page">
+	<div class="thumbnail.errors">
+		<div class="errors-500">
+			<div class="caption">
+				<img src="http://www.fxcovers.com/thumbs/facebook_cover_photo_404_profile_not_found-t1.jpg"/>
+				<br>
+				<h5>We know you really want to friend <%= request.path_info.sub("/", "") %> but this is not facebook...</h5>
+				<h1> 404 Page Not Found</h1>
+			</div>
+			<div class="error-msg"></div>
+			<%= @log %>
+		</div>
+	</div>
+</div>
+</div>
